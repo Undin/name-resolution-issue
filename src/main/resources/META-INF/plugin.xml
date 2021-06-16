@@ -15,5 +15,7 @@
     <applicationListeners>
         <listener class="com.github.undin.nameresolutionissue.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
+        <listener class="com.github.undin.nameresolutionissue.listeners.JavaProjectListener"
+                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
